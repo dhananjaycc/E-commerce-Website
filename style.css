@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Make the body take up the full viewport height */
+    margin: 0;
+  }
+  
+  form {
+    background-color: #333;
+    border: 2px solid #555;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff0000; /* Red */
+  }
+  
+  .error {
+    color: #ff0000; /* Red */
+    text-align: center;
+  }
+  
+  label {
+    color: #00f; /* Blue */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ff0000; /* Red */
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f00; /* Darker Red on hover */
+  }
+      
